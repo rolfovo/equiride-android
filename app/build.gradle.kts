@@ -59,4 +59,6 @@ dependencies {
     // Permissions
     implementation("com.google.accompanist:accompanist-permissions:0.34.0")
 }
-
+kotlin {
+    jvmToolchain(17)
+}
