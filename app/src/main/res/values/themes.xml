@@ -1,9 +1,7 @@
 <resources>
-    <style name="Theme.EquiRide" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.EquiRide" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
     </style>
 </resources>
