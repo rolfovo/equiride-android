@@ -37,6 +37,8 @@ dependencies {
     implementation("androidx.compose.material:material:1.5.2")
     implementation("androidx.compose.ui:ui-tooling-preview:1.5.2")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("com.google.android.material:material:1.11.0")
+
 
     // OSMDroid
     implementation("org.osmdroid:osmdroid-android:6.1.16")
