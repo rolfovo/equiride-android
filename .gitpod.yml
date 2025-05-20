@@ -1,0 +1,13 @@
+# .gitpod.yml
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Prepare Gradle
+    init: ./gradlew --version
+  - name: Build
+    command: ./gradlew assembleDebug
+
+ports:
+  - port: 8081
+    onOpen: ignore
