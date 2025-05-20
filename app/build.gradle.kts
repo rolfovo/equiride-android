@@ -45,6 +45,14 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview:1.5.2")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
     implementation("com.google.android.material:material:1.11.0")
+    // Ktor Client (core + okhttp engine + serialization + content-negotiation)
+    implementation("io.ktor:ktor-client-core:2.3.4")
+    implementation("io.ktor:ktor-client-okhttp:2.3.4")
+    implementation("io.ktor:ktor-client-content-negotiation:2.3.4")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.4")
+
+    // JSON serialization (musíš mít i kotlinx-serialization)
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
 
 
     // OSMDroid
